@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @media print {
+    body {
+      background: white !important;
+      color: black !important;
+      font-size: 13pt !important;
+      font-family: 'Times New Roman', Times, serif !important;
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+    .printable-paper {
+      box-shadow: none !important;
+      border: none !important;
+      padding: 0 !important;
+      max-width: 100% !important;
+      width: 100% !important;
+    }
+    .print\\:hidden {
+      display: none !important;
+    }
+  }
+}
